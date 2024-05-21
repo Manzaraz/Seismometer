@@ -8,19 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		61F0B4B12BFCEEBA00F3E03B /* SeismometerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F0B4B02BFCEEBA00F3E03B /* SeismometerApp.swift */; };
-		61F0B4B32BFCEEBA00F3E03B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F0B4B22BFCEEBA00F3E03B /* ContentView.swift */; };
+		61F0B4B32BFCEEBA00F3E03B /* SeismometerBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F0B4B22BFCEEBA00F3E03B /* SeismometerBrowser.swift */; };
 		61F0B4B52BFCEEBD00F3E03B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61F0B4B42BFCEEBD00F3E03B /* Assets.xcassets */; };
 		61F0B4B82BFCEEBD00F3E03B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61F0B4B72BFCEEBD00F3E03B /* Preview Assets.xcassets */; };
 		61F0B4BF2BFCFDE400F3E03B /* MotionDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F0B4BE2BFCFDE400F3E03B /* MotionDetector.swift */; };
+		61F0B4C12BFD432600F3E03B /* NeedleSeismometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F0B4C02BFD432600F3E03B /* NeedleSeismometer.swift */; };
+		61F0B4C32BFD446F00F3E03B /* GaugeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F0B4C22BFD446F00F3E03B /* GaugeBackground.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		61F0B4AD2BFCEEBA00F3E03B /* Seismometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Seismometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61F0B4B02BFCEEBA00F3E03B /* SeismometerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeismometerApp.swift; sourceTree = "<group>"; };
-		61F0B4B22BFCEEBA00F3E03B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		61F0B4B22BFCEEBA00F3E03B /* SeismometerBrowser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeismometerBrowser.swift; sourceTree = "<group>"; };
 		61F0B4B42BFCEEBD00F3E03B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61F0B4B72BFCEEBD00F3E03B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		61F0B4BE2BFCFDE400F3E03B /* MotionDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionDetector.swift; sourceTree = "<group>"; };
+		61F0B4C02BFD432600F3E03B /* NeedleSeismometer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeedleSeismometer.swift; sourceTree = "<group>"; };
+		61F0B4C22BFD446F00F3E03B /* GaugeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeBackground.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +58,11 @@
 			isa = PBXGroup;
 			children = (
 				61F0B4B02BFCEEBA00F3E03B /* SeismometerApp.swift */,
-				61F0B4B22BFCEEBA00F3E03B /* ContentView.swift */,
-				61F0B4B42BFCEEBD00F3E03B /* Assets.xcassets */,
+				61F0B4B22BFCEEBA00F3E03B /* SeismometerBrowser.swift */,
 				61F0B4BE2BFCFDE400F3E03B /* MotionDetector.swift */,
+				61F0B4C02BFD432600F3E03B /* NeedleSeismometer.swift */,
+				61F0B4C22BFD446F00F3E03B /* GaugeBackground.swift */,
+				61F0B4B42BFCEEBD00F3E03B /* Assets.xcassets */,
 				61F0B4B62BFCEEBD00F3E03B /* Preview Content */,
 			);
 			path = Seismometer;
@@ -140,7 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61F0B4B32BFCEEBA00F3E03B /* ContentView.swift in Sources */,
+				61F0B4C12BFD432600F3E03B /* NeedleSeismometer.swift in Sources */,
+				61F0B4C32BFD446F00F3E03B /* GaugeBackground.swift in Sources */,
+				61F0B4B32BFCEEBA00F3E03B /* SeismometerBrowser.swift in Sources */,
 				61F0B4B12BFCEEBA00F3E03B /* SeismometerApp.swift in Sources */,
 				61F0B4BF2BFCFDE400F3E03B /* MotionDetector.swift in Sources */,
 			);
