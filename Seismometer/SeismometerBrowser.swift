@@ -31,7 +31,25 @@ struct SeismometerBrowser: View {
                 }
                 .padding()
                 
-                // Aqui va otro navigationLink apuntando ad GraphSeismometer()
+                NavigationLink(destination: GraphSeismometer()) {
+                    HStack() {
+                        Image(systemName: "waveform.path.ecg.rectangle")
+                            .foregroundStyle(Color.accentColor)
+                            .padding()
+                            .font(.title2)
+                            
+                        VStack(alignment: .leading, spacing: 8) {
+                            Text("Graph")
+                                .font(.headline)
+                            Text("Watch the device's vibrations charted on a graph. Adjust the sesitivity using a slider.")
+                                .font(.caption)
+                        }
+                        .padding(.trailing)
+                    }
+                }
+                .padding()
+                
+                
             }
             .listStyle(.plain)
             .navigationTitle(Text("Seismometer"))

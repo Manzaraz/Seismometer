@@ -16,6 +16,7 @@
 		61F0B4C32BFD446F00F3E03B /* GaugeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F0B4C22BFD446F00F3E03B /* GaugeBackground.swift */; };
 		61F0B4C62BFD4F1A00F3E03B /* GraphSeismometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F0B4C52BFD4F1A00F3E03B /* GraphSeismometer.swift */; };
 		61F0B4CA2BFD513F00F3E03B /* LineGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F0B4C92BFD513F00F3E03B /* LineGraph.swift */; };
+		61F0B4CC2BFD5A3600F3E03B /* DoubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F0B4CB2BFD5A3600F3E03B /* DoubleExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		61F0B4C22BFD446F00F3E03B /* GaugeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeBackground.swift; sourceTree = "<group>"; };
 		61F0B4C52BFD4F1A00F3E03B /* GraphSeismometer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphSeismometer.swift; sourceTree = "<group>"; };
 		61F0B4C92BFD513F00F3E03B /* LineGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineGraph.swift; sourceTree = "<group>"; };
+		61F0B4CB2BFD5A3600F3E03B /* DoubleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			children = (
 				61F0B4B02BFCEEBA00F3E03B /* SeismometerApp.swift */,
 				61F0B4B22BFCEEBA00F3E03B /* SeismometerBrowser.swift */,
+				61F0B4CB2BFD5A3600F3E03B /* DoubleExtension.swift */,
 				61F0B4BE2BFCFDE400F3E03B /* MotionDetector.swift */,
 				61F0B4C02BFD432600F3E03B /* NeedleSeismometer.swift */,
 				61F0B4C22BFD446F00F3E03B /* GaugeBackground.swift */,
@@ -152,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61F0B4CC2BFD5A3600F3E03B /* DoubleExtension.swift in Sources */,
 				61F0B4C12BFD432600F3E03B /* NeedleSeismometer.swift in Sources */,
 				61F0B4CA2BFD513F00F3E03B /* LineGraph.swift in Sources */,
 				61F0B4C32BFD446F00F3E03B /* GaugeBackground.swift in Sources */,

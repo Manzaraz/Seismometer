@@ -39,8 +39,8 @@ struct NeedleSeismometer: View {
             }
             
             Spacer()
-            Text("something goes here...")
-//            Text("\(motionDetector.zAcceleration.describeAsFixedLengthString())")
+            
+            Text("\(motionDetector.zAcceleration.describeAsFixedLengthString())")
                 .font(.system(.body, design: .monospaced))
                 .fontWeight(.bold)
             
